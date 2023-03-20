@@ -1,0 +1,38 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+.about-me{
+    font-family: Artin;
+    scroll-behavior: smooth;
+    background-color:rgb(18, 149, 103) ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.aboutimg{
+    height: 200px;
+    margin-left: 0px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    z-index: -1;
+}
+
+.about-me h1{
+    color: rgb(251, 251, 251);
+    margin-right: 10px;
+}
+
+.about-text{
+    margin-right: 10px;
+}
+
+.all-info{
+    display: flex;
+    gap: 2rem;
+}
+
+.my-info{
+    margin-right: 1vh;
+}

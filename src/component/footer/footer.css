@@ -1,0 +1,57 @@
+.icons1 a{
+    display: flex;
+    color: white;
+}
+.icons2 a{
+    display: flex;
+    color: white;
+}
+.icons3 a{
+    display: flex;
+    color: white;
+    margin-right: 20vh;
+}
+.icons4 a{
+    display: flex;
+    color: white;
+}
+
+.icons1 a h4{
+    position: relative;
+    top: -3vh;
+    margin-bottom: -2vh;
+    margin-right: 13px;
+}
+.icons2 a h4{
+    position: relative;
+    top: -3vh;
+    margin-bottom: -2vh;
+    margin-right: 13px;
+}
+.icons3 a h4{
+    position: relative;
+    top: -3vh;
+    margin-bottom: -2vh;
+    margin-right: 13px;
+}
+.icons4 a h4{
+    position: relative;
+    top: -3vh;
+    margin-bottom: -2vh;
+    margin-right: 13px;
+}
+
+.all{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(78, 154, 65);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.tags{
+    position: absolute;
+    left: 15px;
+    margin-top: -4vh;
+    border-bottom: 2px solid #4444;
+}

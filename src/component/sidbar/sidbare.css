@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Artin-Bold';
+    src: local('Artin-Bold'), url(../body/fonts/Artin-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'ArtinSharp-Black.ttf';
+    src: local('ArtinSharp-Black.ttf'), url(../body/fonts/ArtinSharp-Black.ttf) format('truetype');
+}
+
+
+
+
+
+.me{
+    height: 250px;
+}
+
+.web-nav , .mob-nav{
+    display: flex;
+    gap: 5rem;
+    height: 60px;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.web-nav a , .mob-nav a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.web-nav a div{
+    padding: 0;
+}
+
+.web-nav div , .mob-nav div{
+    cursor: pointer;
+    padding: 1vh;
+    border-radius: 20px;
+    transition: 200ms;
+    font-family: Artin-Bold;
+}
+
+.web-nav div:hover{
+    color: rgb(67, 161, 142);
+    margin-bottom: 4px;
+    transition: 200ms;
+}
+
+.mob-nav div:hover{
+    color: rgb(67, 161, 142);
+    margin-left: 4px;
+    transition: 200ms;
+}
+
+.title{
+    margin-right: 10px;
+    margin-top: 80px;
+    font-family: Artin-Bold;
+}
+
+.don-btn{
+    font-family: Artin;
+    color: rgb(255, 255, 255);
+    background-color:rgb(59, 188, 175) ;
+    margin-top: 50px;
+    margin-right: 20px;
+    padding: .90px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+/* about me */
+
+.mobail-nav{
+    display: none;
+}
+
+@media screen and (max-width:640px) {
+    .navbar .mobail-nav{
+        display: flex;
+    }
+
+    .mob-nav{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(217, 229, 223);
+        right: 0;
+        width: 100%;
+        height: 55vh;
+        top: 0;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .mob-nav div{
+        color: rgb(0, 0, 0);
+        right: 5%;
+    }
+    
+    .navbar .web-nav{
+        display: none;
+    }
+
+    .humber{
+        position: absolute;
+        right: 5%;
+        cursor: pointer;
+    }
+}
+
+.Humbericon{
+    z-index: 1;
+    cursor: pointer;
+}

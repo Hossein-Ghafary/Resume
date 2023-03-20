@@ -1,0 +1,22 @@
+*{
+    font-family: ARTIN;
+}
+
+
+.Work-samples{
+    border-radius: 10px;
+    background-color: rgb(246, 246, 246);
+}
+
+
+.b-i{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    margin-left: 19px;
+}
+
+.work-title{
+    text-align: center;
+}
